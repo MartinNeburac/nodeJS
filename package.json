@@ -1,17 +1,23 @@
 {
   "name": "nodejspro",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinNeburac/nodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinNeburac/nodeJS/issues"
+  },
+  "homepage": "https://github.com/MartinNeburac/nodeJS#readme",
   "dependencies": {
-    "express":"*",
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "git": "^0.1.5",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
-    "pug": "^2.0.4"
+    "express": "^4.17.1"
   }
 }
